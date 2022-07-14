@@ -27,7 +27,7 @@ func (l Level) String() string {
 	case ERROR:
 		return "Error"
 	}
-	return "unknown"
+	return "Unknown"
 }
 
 type Output interface {
